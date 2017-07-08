@@ -32,8 +32,8 @@ public class GoogleInterviewQuestion {
 	public static int computeHighestProduct(String value) {
 		int product = 0;
 		for(String word : WORDS_BAG) {
-			List a = convert(value.toCharArray());
-			List b = convert(word.toCharArray());
+			List<String> a = convert(value.toCharArray());
+			List<String> b = convert(word.toCharArray());
 
 			if(Collections.disjoint(a, b)) {
 				int current = value.length() *  word.length();
