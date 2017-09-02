@@ -1,4 +1,4 @@
-package com.svenot.praxis;
+package com.svenot.fibonacci;
 
 import java.util.HashMap;
 
